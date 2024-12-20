@@ -31,27 +31,27 @@ const Hero = () => {
         <div className="w-full md:w-2/4 flex gap-10 justify-center flex-col h-screen p-10">
           <span
             style={{ backgroundColor: fullNameColor }}
-            className="name p-4 bg-[#FFF7DF] md:w-2/4 text-[#FFC72A] font-semibold text-2xl"
+            className="name p-4 bg-[#FFF7DF] md:w-2/4 text-[#FFC72A] font-semibold text-2xl animate-drop-down duration-300"
           >
             Hi! I'm Mustapha Lawal
           </span>
-          <h1 className="text-5xl md:text-7xl font-semibold">
+          <h1 className="text-5xl md:text-7xl font-semibold animate-drop-down duration-300">
             FRONTEND <br /> <span className="font-bold">WEB DEVELOPER</span>
           </h1>
-          <p className="font-semibold text-gray-500 text-baseline text-justify">
+          <p className="font-semibold text-gray-500 text-baseline text-justify animate-drop-down duration-300">
             I specialize in creating engaging, responsive, and user-friendly web
             experiences. Skilled in HTML, CSS, JavaScript, and modern frameworks
             like React JS, Next JS and Tailwind CSS, I focus on building
             seamless interfaces that provide intuitive navigation and
             exceptional performance across devices.
           </p>
-          <div className="flex gap-5 font-semibold">
-            <button className="bg-purple-500 text-white text-xl py-3 px-7">
+          <div className="flex gap-5 font-semibold ">
+            <button className="bg-purple-500 text-white text-xl py-3 px-7 animate-drop-down duration-300">
               Hire Me
             </button>
             <button
               style={{ buttonStyle, text: textColor }}
-              className="text-xl py-3 px-7 border border-1"
+              className="text-xl py-3 px-7 border border-1 animate-drop-down duration-300"
             >
               Download CV
             </button>
@@ -126,8 +126,8 @@ const Hero = () => {
         <button className="bg-purple-500 w-[150px] text-white rounded-3xl font-medium px-5 py-3">
           SERVICES
         </button>
-        <h1 className="text-white text-3xl font-medium">Services I Offer</h1>
-        <p className="md:mx-10 md:px-10 font-semibold text-gray-400 text-center">
+        <h1 className="text-white text-3xl font-medium animate-drop-down duration-300">Services I Offer</h1>
+        <p className="md:mx-10 md:px-10 font-semibold text-gray-400 text-center animate-drop-down duration-300">
           Whether you're building a website from scratch, need a stunning visual
           identity, or want to optimize an existing project, I’m here to help
           with the creative and technical aspects of your digital journey!
@@ -139,11 +139,11 @@ const Hero = () => {
                 <div className="w-12 h-12 mr-[-1.5rem] rounded-full bg-yellow-500"></div>
                 <div className="w-12 h-12 rounded-full bg-purple-500"></div>
               </div>
-              <h1 className="text-white text-2xl font-medium">
+              <h1 className="text-white text-xl md:text-2xl font-medium animate-drop-down duration-300">
                 Frontend Development
               </h1>
             </div>
-            <ul className="w-full flex flex-col text-center items-center gap-3 px-5 font-semibold text-gray-400">
+            <ul className="w-full flex flex-col text-center items-center gap-3 px-5 font-semibold text-gray-400 animate-drop-down duration-300">
               <li>* Responsive Website Design & Development</li>
               <li>
                 * Web Application Development (using HTML, CSS, Tailwind CSS,
@@ -160,11 +160,11 @@ const Hero = () => {
                 <div className="w-12 h-12 mr-[-1.5rem] rounded-full bg-yellow-500"></div>
                 <div className="w-12 h-12 rounded-full bg-purple-500"></div>
               </div>
-              <h1 className="text-white text-2xl font-medium">
+              <h1 className="text-white text-xl md:text-2xl font-medium animate-drop-down duration-300">
                 Graphic Design
               </h1>
             </div>
-            <ul className="w-full flex flex-col text-center items-center gap-3 px-5 font-semibold text-gray-400">
+            <ul className="w-full flex flex-col text-center items-center gap-3 px-5 font-semibold text-gray-400 animate-drop-down duration-300">
               <li>* Logo & Branding Design</li>
               <li>* Social Media Graphics & Banners</li>
               <li>* Print Design (Flyers, Brochures, Business Cards)</li>
@@ -181,15 +181,15 @@ const Hero = () => {
         <button className="bg-purple-500 w-[150px] text-white rounded-3xl font-medium px-5 py-3">
           PROJECTS
         </button>
-        <h1 className="text-3xl text-[#FFC41F] font-medium">
+        <h1 className="text-lg md:text-3xl text-[#FFC41F] font-medium animate-drop-down duration-300">
           Showcasing My Remarkable Projects
         </h1>
-        <p className="md:mx-10 md:px-10 font-semibold text-gray-300 text-center">
+        <p className="md:mx-10 md:px-10 font-semibold text-gray-300 text-center animate-drop-down duration-300">
           I’m here to help with the creative and technical aspects of your
           digital journey!
         </p>
         <div className="w-full flex flex-col gap-10 p-5">
-        <div className="w-full flex md:flex-row flex-col border border-2">
+        <div className="w-full flex md:flex-row flex-col border border-2 animate-drop-down duration-300">
             <div className="md:w-2/4">
               <img src={assets.project1} alt="" />
             </div>
@@ -209,7 +209,7 @@ const Hero = () => {
               </a>
             </div>
           </div>
-          <div className="w-full flex md:flex-row flex-col border border-2">
+          <div className="w-full flex md:flex-row flex-col border border-2 animate-drop-down duration-300">
             <div className="md:w-2/4">
               <img src={assets.project2} alt="" />
             </div>

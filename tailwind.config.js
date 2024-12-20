@@ -5,7 +5,17 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      animation: {
+        'drop-down': 'dropDown 0.8s ease-out', 
+      },
+      keyframes: {
+        dropDown: {
+          '0%': { transform: 'translateY(100vh)'}, 
+          '100%': { transform: 'translateY(0)'}, 
+        },
+      },
+    },
   },
   plugins: [],
 }
