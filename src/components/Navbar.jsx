@@ -31,7 +31,7 @@ const Navbar = () => {
         <img width={30} height={30}  src={assets.menu_icon} alt="" />
         }
         </div>
-        <div className={`flex flex-col items-center text-xl gap-10 font-medium bg-black md:bg-transparent text-center md:flex-row pt-5 md:items-center md:pb-5 pb-12 absolute md:static md:z-auto z-[-1]
+        <div className={`flex flex-col items-center text-xl gap-10 md:gap-5 font-medium bg-black md:bg-transparent text-center md:flex-row pt-5 md:items-center md:pb-5 pb-12 absolute md:static md:z-auto z-[-1]
         left-0 w-full md:w-auto md:pl-0 transition-all ease-in duration-300 ${showMenu ? 'top-[3.5rem] opacity-100':'top-[-490px] opacity-0 md:opacity-100'}`}>
              <a
               href="#home"

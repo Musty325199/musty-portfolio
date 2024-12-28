@@ -229,6 +229,26 @@ const Hero = () => {
               </a>
             </div>
           </div>
+          <div className="w-full flex md:flex-row flex-col border border-2 animate-drop-down duration-300">
+            <div className="md:w-2/4">
+              <img src={assets.project3} alt="" />
+            </div>
+            <div className="md:w-2/4 flex flex-col justify-center gap-5 p-5">
+              <span className="text-2xl font-medium text-[#FFC41F]">Project 3</span>
+              <a
+                className="text-2xl md:text-5xl text-purple-500 font-medium"
+                href="https://lou-paperie-website.vercel.app//"
+              >
+                Lou Paperie E-commerce Website
+              </a>
+              <a
+                href="https://lou-paperie-website.vercel.app/"
+                className="text-xl w-[200px] bg-white text-center py-3 px-2 border border-1 hover:bg-black hover:text-white duration-300"
+              >
+                View Project
+              </a>
+            </div>
+          </div>
         </div>
       </div>
       <div id="contact" className="bg-[#050C17] md:flex-row flex-col flex py-5 md:p-10">
