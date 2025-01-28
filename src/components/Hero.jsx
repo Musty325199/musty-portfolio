@@ -189,7 +189,7 @@ const Hero = () => {
           digital journey!
         </p>
         <div className="w-full flex flex-col gap-10 p-5">
-        <div className="w-full flex md:flex-row flex-col border border-2 animate-drop-down duration-300">
+        <div className="w-full flex md:flex-row flex-col border-2 animate-drop-down duration-300">
             <div className="md:w-2/4">
               <img src={assets.project1} alt="" />
             </div>
@@ -197,19 +197,19 @@ const Hero = () => {
               <span className="text-2xl font-medium text-[#FFC41F]">Project 1</span>
               <a
                 className="text-2xl md:text-5xl text-purple-500 font-medium"
-                href="https://newel-remodelling-web1.vercel.app/"
+                href="https://newel-remodelling-web1-git-master-mustaphas-projects-68c00668.vercel.app/"
               >
-                RV Rentals Website
+                Newel Remodelling Website
               </a>
               <a
-                href="https://newel-remodelling-web1.vercel.app/"
+                href="https://newel-remodelling-web1-git-master-mustaphas-projects-68c00668.vercel.app/"
                 className="text-xl w-[200px] bg-white text-center py-3 px-2 border border-1 hover:bg-black hover:text-white duration-300"
               >
                 View Project
               </a>
             </div>
           </div>
-          <div className="w-full flex md:flex-row flex-col border border-2 animate-drop-down duration-300">
+          <div className="w-full flex md:flex-row flex-col border-2 animate-drop-down duration-300">
             <div className="md:w-2/4">
               <img src={assets.project2} alt="" />
             </div>
